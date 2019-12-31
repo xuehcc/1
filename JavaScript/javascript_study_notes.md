@@ -155,8 +155,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
     var age = 15;
     if (age >= 18) {
         alert('adult');
-    } 
-    else {
+    } else {
         alert('teenager');
     }
     ```
