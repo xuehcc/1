@@ -17,7 +17,7 @@
     </html>
     ```
 
-> `type`默认属性为:JavaScript,不必显示指定。
+    > `type`默认属性为:JavaScript,不必显示指定。
 
 - 将JavaScript代码单独放在`.js`文件中;
 
