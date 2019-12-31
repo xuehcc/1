@@ -1,6 +1,6 @@
-#JavaScript笔记
+# JavaScript 笔记
 
-##JavaScript布局
+## JavaScript 布局
 
 - 通常JavaScript代码放在`<head></head>`中;
 
