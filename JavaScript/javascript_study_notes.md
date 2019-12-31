@@ -126,7 +126,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
     2 >= 3; // false值
     ```
 
-- &&运算是与运算,只有都为`true`,结果才能是`true`
+- `&&`运算是与运算,只有都为`true`,结果才能是`true`
 
     ```JavaScript
     true && true; // 计算结果为true
@@ -134,7 +134,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
     false && true && true // 计算结果为false
     ```
     
-- ||运算是或运算,只要其中一个为`true`,运算结果为`true`
+- `||`运算是或运算,只要其中一个为`true`,运算结果为`true`
 
     ```JavaScript
     false || false; //计算结果为false
@@ -142,7 +142,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
     false || false || true; //计算结果为true
     ```
     
-- !运算是非运算,它是一个单目运算符,把`true`变成`false`,把`false`变成`true`
+- `!`运算是非运算,它是一个单目运算符,把`true`变成`false`,把`false`变成`true`
 
     ```JavaScript
     ! true; // 结果为false
