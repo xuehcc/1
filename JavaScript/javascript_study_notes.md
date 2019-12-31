@@ -42,8 +42,6 @@
     
     赋值语句:
     
-    ```JavaScript
-    var x = 1;
-    ```
+    `var x = 1;`
     
     
