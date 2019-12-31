@@ -89,6 +89,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`:
     
 ### 数据类型和变量
     
+#### Number
 - JavaScript不区分浮点数和整数,统一用Number表示;
     
     ```JavaScript
@@ -109,7 +110,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`:
     0 / 0; // NaN
     10 % 3; // 1
     ```
-    
+#### 字符串    
 - JavaScript字符串
 
 
