@@ -129,7 +129,34 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
 - &&运算是与运算,只有都为`true`,结果才能是`true`
 
     ```JavaScript
-    ture && true; // 计算结果为true
+    true && true; // 计算结果为true
     true && false; // 计算结果为false
     false && true && true // 计算结果为false
+    ```
+    
+- ||运算是或运算,只要其中一个为`true`,运算结果为`true`
+
+    ```JavaScript
+    false || false; //计算结果为false
+    false || true; // 计算结果为true
+    false || false || true; //计算结果为true
+    ```
+    
+- !运算是非运算,它是一个单目运算符,把`true`变成`false`,把`false`变成`true`
+
+    ```JavaScript
+    ! true; // 结果为false
+    ! false; // 结果为true
+    ```
+    
+    布尔值用在条件判断中
+    
+    ```JavaScript
+    var age = 15;
+    if (age >= 18) {
+        alert('adult');
+    } 
+    else {
+        alert('teenager');
+    }
     ```
