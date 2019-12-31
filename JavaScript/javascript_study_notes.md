@@ -89,7 +89,8 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`:
     
 ### 数据类型和变量
     
-    - JavaScript不区分浮点数和整数,统一用Number表示;
+- JavaScript不区分浮点数和整数,统一用Number表示;
+    
         ```JavaScript
         123; //整数
         0.456; //浮点数
