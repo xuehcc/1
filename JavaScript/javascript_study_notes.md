@@ -91,11 +91,23 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`:
     
 - JavaScript不区分浮点数和整数,统一用Number表示;
     
-        123; //整数
-        0.456; //浮点数
-        1.2345e3; //科学计数法表示1.2345x1000,等同于1234.5
-        -99; //负数
-        NaN; //NaN表示Not a Number,当无法计算时用NaN表示
-        Infinity; //Infinity表示无限大,数值超过JavaScript的Number最大值时,表示为Infinity
+    123; // 整数
+    0.456; // 浮点数
+    1.2345e3; // 科学计数法表示1.2345x1000,等同于1234.5
+    -99; // 负数
+    NaN; // NaN表示Not a Number,当无法计算时用NaN表示
+    Infinity; // Infinity表示无限大,数值超过JavaScript的Number最大值时,表示为Infinity
+        
+- JavaScript四则运算
+
+    ```JavaScript
+    1 + 2; // 3
+    (1 + 2) * 5 / 2; // 7.5
+    2 / 0; // Infinity
+    0 / 0; // NaN
+    10 % 3; // 1
+    ```
+    
+    ```
     
 
