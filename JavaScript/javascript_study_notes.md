@@ -36,11 +36,12 @@
     
 ## JavaScript 基础
     
-    ### 基本语法
+### 基本语法
     
     JavaScript每个语句以`;`结尾,语句块用`{...}`
     
     赋值语句:
+    
     ```JavaScript
     var x = 1;
     ```
