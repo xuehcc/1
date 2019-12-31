@@ -34,7 +34,7 @@
     
     > 多个页面可以同时引用一个`.js`文件
     
-    ## JavaScript 基础
+## JavaScript 基础
     
     ### 基本语法
     
