@@ -159,3 +159,33 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
         alert('teenager');
     }
     ```
+    
+#### 比较运算符
+
+- `==`比较会自动转换数据类型再比较
+
+    ```JavaScript
+    false == 0; // true
+    2 > 5; // false
+    7 == 7; // true
+    ```
+    
+- `===`比较不会自动转换数据类型,如不一致返回`false`,如一致再比较
+
+    ```JavaScript
+    false === 0; // false
+    1 + 2 === 4 - 1; // true
+    ```
+    
+- `NaN`与其他值都不相等,包括自己,只有`isNaN()`函数能判断`NaN`
+
+    ```JavaScript
+    NaN === NaN; // false
+    isNaN(NaN); //不确定*不是Number所有返回true
+    ```
+
+- 浮点数相等比较
+
+    ```javaScript
+    1 / 3 === (1 - 2 / 3); // false
+    ```
