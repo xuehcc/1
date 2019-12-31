@@ -2,7 +2,7 @@
 
 ## JavaScript 布局
 
-- 通常JavaScript代码放在`<head></head>`中;
+- 通常JavaScript代码放在`<head> </head>`中;
 
 ```JavaScript
 <html>
