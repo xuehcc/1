@@ -149,7 +149,7 @@ JavaScript每个语句以`;`结尾,语句块用`{...}`
     ! false; // 结果为true
     ```
     
-    布尔值用在条件判断中
+- 布尔值用在条件判断中
     
     ```JavaScript
     var age = 15;
