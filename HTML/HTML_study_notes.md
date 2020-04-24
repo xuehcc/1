@@ -69,11 +69,19 @@ HTML标记标签称为HTML标签
 
 ## HTML段落
 
-`<p>段落<p1>`
+`<p>段落</p>`
 
 ## HTML折行
 
 `<br />`
+
+## HTML链接
+
+`<a href="www.baidu.com">这是一个链接</a>`
+
+## HTML图像
+
+`<img src="/images/logo.jpg" height="10" width="10" />`
 
 
 
