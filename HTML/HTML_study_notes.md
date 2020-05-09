@@ -80,12 +80,20 @@ HTML标记标签称为HTML标签
 `<a href="www.baidu.com" target="_blank" rel="noopener noreferrer">这是一个链接</a>`
 target属性可以定义被链接的文档在何处显示
 
+- _blank：新的窗口中打开
+- _self：在相同的框架或窗口中打开链接
+- _parent：在父窗口中打开链接
+- _top：清除所有被包含框架，打开链接
+
 
 ## HTML图像
 
 `<img src="/images/logo.jpg" height="10" width="10" />`
 
 ##
+
+
+
 
 
 
