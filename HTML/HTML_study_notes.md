@@ -96,6 +96,16 @@ target属性可以定义被链接的文档在何处显示
 <a href="mailto:john.shen@jimmychoo.com?cc=xuexhc@gmail.com&bcc=xuexhc@outlook.com&Subject=Hello%20again&body=Thank%20You!" target="_top">发送邮件</a>
 ```
 
+|参数                  |描述            |
+|:-                   |:-              |
+| mailto:name@email.com|邮件接收地址    |
+| cc=name@email.com    |抄送地址        |
+| bcc=name@email.com   |密件抄送地址    |
+| subject=subject text |邮件主题        |
+| body=body text       |邮件主题        |
+| ?                    |第一个参数分隔符 |
+| &                    |其他参数分隔符   |
+
 
 
 
@@ -113,7 +123,7 @@ target属性可以定义被链接的文档在何处显示
 
 ## 小语法
 
-- `%20`显示两个空格
+- `%20`显示空格
 - ``
 
 
