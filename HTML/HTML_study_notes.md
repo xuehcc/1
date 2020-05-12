@@ -45,7 +45,9 @@ HTML标记标签称为HTML标签
 
 属性是 HTML元素提供的附加信息
 
+```HTML
 `<a href="www.baidu.com">这是一个链接</a>`
+```
 
 - HTML元素可以设置**属性**
 - 属性可以在元素中添加**附加信息**
@@ -77,7 +79,10 @@ HTML标记标签称为HTML标签
 
 ## HTML链接
 
-`<a href="www.baidu.com" target="_blank" rel="noopener noreferrer">这是一个链接</a>`
+```HTML
+<a href="www.baidu.com" target="_blank" rel="noopener noreferrer">这是一个链接</a>`<br />
+```
+
 target属性可以定义被链接的文档在何处显示
 
 - _blank：新的窗口中打开
@@ -85,12 +90,32 @@ target属性可以定义被链接的文档在何处显示
 - _parent：在父窗口中打开链接
 - _top：清除所有被包含框架，打开链接
 
+## HTML创建电子邮件链接
+
+```HTML
+<a href="mailto:john.shen@jimmychoo.com?cc=xuexhc@gmail.com&bcc=xuexhc@outlook.com&Subject=Hello%20again&body=Thank%20You!" target="_top">发送邮件</a>
+```
+
+
+
 
 ## HTML图像
 
-`<img src="/images/logo.jpg" height="10" width="10" />`
+```HTML
+<img src="/images/logo.jpg" height="10" width="10" />
+```
 
-##
+
+
+
+
+
+
+## 小语法
+
+- `%20`显示两个空格
+- ``
+
 
 
 
