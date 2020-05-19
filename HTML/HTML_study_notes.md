@@ -118,11 +118,11 @@ target属性可以定义被链接的文档在何处显示
 ## HTML头部
 
 
-### <head>元素
+### `<head>`元素
 
 `<head>`元素包含了所有头部标签元素:`<title>`、`<style>`、`<meta>`、`<link>`、`<script>`、`<noscript>`、`<base>`
 
-### <title>元素
+### `<title>`元素
   
 `<title>`标签定义了不同文档的标题
 
