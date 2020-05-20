@@ -133,18 +133,54 @@ target属性可以定义被链接的文档在何处显示
 - `<base>`元素
 
   `<base>`标签描述了基本的链接地址/链接目标，该标签为HTML中所有链接标签的默认链接
-
+  ```HTML
+  <base href="C:\Users\xue\Desktop\Myproject\images\" traget="_blank">
+  ```
+  
 - `<link>`元素
 
   `<link>`标签定义了文档与外部资源之间的关系
   `<link>`标签一般用于链接到样式表
+  
+  ```HTML
+  <link rel="stylesheet" type="text/css" href="C:\Users\xue\Desktop\Myproject\CSS\mystyle.css">
+  ```
 
 - `<style>`元素
 
   `<style>`标签定义了HTML文档的样式文件引用地址
   `<style>`元素中可以直接添加样式
+  
+  ```HTML
+  <style type="text/css">
+  body {background-color:yellow}
+  </style>
+  ```
 
 - `<meta>`元素
+
+  `<meta>`标签描述了基本的元数据（网页描述、关键词、作者等）
+  
+  1. 为搜索引擎定义关键词
+  
+  ```HTML
+  <meta name="keywords" content="HTML，CSS，JavaScript">
+  ```
+  2. 为网页定义描述内容
+  
+  ```HTML
+  <meta name="description" content="代码测试">
+  ```
+  3. 定义网页作者
+  
+  ```HTML
+  <meta name="author" content="xhc">
+  ```
+  4. 每30秒刷新当前页面
+  
+  ```HTML
+  <meta http-equiv="refresh" content="30">
+  ```
 
 
 
