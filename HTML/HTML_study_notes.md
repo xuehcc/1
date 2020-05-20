@@ -120,31 +120,31 @@ target属性可以定义被链接的文档在何处显示
 
 - `<head>`元素
 
-`<head>`元素包含了所有头部标签元素:`<title>`、`<style>`、`<meta>`、`<link>`、`<script>`、`<noscript>`、`<base>`
+  `<head>`元素包含了所有头部标签元素:`<title>`、`<style>`、`<meta>`、`<link>`、`<script>`、`<noscript>`、`<base>`
 
 - `<title>`元素
   
-`<title>`标签定义了不同文档的标题
+  `<title>`标签定义了不同文档的标题
 
-```HTML
-<title>标题</title>
-```
+  ```HTML
+  <title>标题</title>
+  ```
 
-### `<base>`元素
+- `<base>`元素
 
-`<base>`标签描述了基本的链接地址/链接目标，该标签为HTML中所有链接标签的默认链接
+  `<base>`标签描述了基本的链接地址/链接目标，该标签为HTML中所有链接标签的默认链接
 
-### `<link>`元素
+- `<link>`元素
 
-`<link>`标签定义了文档与外部资源之间的关系
-`<link>`标签一般用于链接到样式表
+  `<link>`标签定义了文档与外部资源之间的关系
+  `<link>`标签一般用于链接到样式表
 
-### `<style>`元素
+- `<style>`元素
 
-`<style>`标签定义了HTML文档的样式文件引用地址
-`<style>`元素中可以直接添加样式
+  `<style>`标签定义了HTML文档的样式文件引用地址
+  `<style>`元素中可以直接添加样式
 
-### `<meta>`元素
+- `<meta>`元素
 
 
 
