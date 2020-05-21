@@ -193,8 +193,16 @@ target属性可以定义被链接的文档在何处显示
 ### `<script>`元素
 `<script>`标签用于加载脚本文件
 
+### `<header>`元素
 
 
+## CSS
+
+CSS可以通过以下方式添加到HTML中
+
+- 内联样式：在HTML元素中使用"style"属性
+- 内部样式表：在HTML文档头部<head>区域使用<style>元素来包含CSS
+- 外部引用：使用外部CSS文件
 
 
 
