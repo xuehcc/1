@@ -161,22 +161,22 @@ target属性可以定义被链接的文档在何处显示
 
   `<meta>`标签描述了基本的元数据（网页描述、关键词、作者等）
   
-  1.为搜索引擎定义关键词
+1. 为搜索引擎定义关键词
   
   ```HTML
   <meta name="keywords" content="HTML，CSS，JavaScript">
   ```
-  2.为网页定义描述内容
+2. 为网页定义描述内容
   
   ```HTML
   <meta name="description" content="代码测试">
   ```
-  3.定义网页作者
+3. 定义网页作者
   
   ```HTML
   <meta name="author" content="xhc">
   ```
-  4.每30秒刷新当前页面
+4. 每30秒刷新当前页面
   
   ```HTML
   <meta http-equiv="refresh" content="30">
