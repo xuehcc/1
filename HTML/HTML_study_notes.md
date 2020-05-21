@@ -59,7 +59,9 @@ HTML标记标签称为HTML标签
 
 `<h1>`定义最大标题,`<h6>`定义最小标题
 
-`<h1>标题1</h1>`
+```HTML
+<h1>标题1</h1>
+```
 
 ## HTML水平线
 
@@ -145,6 +147,12 @@ target属性可以定义被链接的文档在何处显示
   ```HTML
   <link rel="stylesheet" type="text/css" href="C:\Users\xue\Desktop\Myproject\CSS\mystyle.css">
   ```
+  
+  `<link>`标签显示图片
+  
+  ```HTML
+  <link rel="shortcut icon" href="图片url">
+  ```
 
 - `<style>`元素
 
@@ -182,10 +190,8 @@ target属性可以定义被链接的文档在何处显示
   <meta http-equiv="refresh" content="30">
   ```
 
-
-
-
 ### `<script>`元素
+`<script>`标签用于加载脚本文件
 
 
 
