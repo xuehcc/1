@@ -1,5 +1,32 @@
 # JavaScript 笔记
 
+## JavaScript 基础
+
+### Script 标签
+
+- 在HTML文档中使用`Script`标签插入JavaScript程序;
+
+    ```html
+    <html>
+        <body>
+            <script>
+                alert("Hi");
+            </script>
+        </body>
+    </html>
+    ```
+    
+### 外部脚本
+
+- 通过`src`特性将JavaScript代码添加到HTML中;
+
+    ```html
+    <script src = "/path/to/script.js"></script>
+    ```
+
+一个单独的`<script>`不能同时使用`src`特性和内部包裹代码
+
+
 ## JavaScript 布局
 
 - 通常JavaScript代码放在`<head> </head>`中;
