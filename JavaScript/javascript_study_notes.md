@@ -39,16 +39,104 @@
     
 ### 注释
 
-单行注释;
+单行注释
 
 `//这是单行注释`
 
-多行注释;
+多行注释
 
 <pre>/*这是
 多行注释
 */</pre>
 
+## 现代模式
+
+### "strict"
+
+- `'use strict'`一般处于脚本最顶部,如处于函数主体开头,则只在该函数中生效;
+
+    ```javascript
+    'strict'
+    ```
+    
+## 变量
+
+变量是数据的"命名存储",使用`let`创建变量
+
+- 创建一个名称为"message"的变量,使用`=`为它赋值,并通过变量名称访问它;
+
+    ```javascript
+    let message = 'Hello';
+    alert(message);
+    ```
+- 改变变量的值;
+
+    ```javascript
+    let message = 'Hello';
+    message = 'World';
+    ```
+
+- 将变量的值拷贝给另一个变量;
+
+    ```javascript
+    let A = 'Hello';
+    let B = 'World';
+    B = A;
+    ```
+
+### 变量命名
+
+1.变量名称必须仅包含字母,数字,符号`$`和`_`<br />
+2.首字母必须非数字
+
+- 命名包括多个单词,采用驼峰式命名法:除了第一个单词,都以大写字母开头;
+
+    ```javascript
+    let myVeryLongName = xuehuicong;
+    ```
+    
+- 未采用"use strict"时,可以直接赋值来创建变量(**不推荐**);
+
+    ```javascript
+    num = 5;
+    ```
+
+### 常量
+
+- 使用`const`来创建一个常量(**无法重新赋值**);
+
+    ```javascript
+    const num = 1.12;
+    ```
+    
+#### 大写形式的常数
+
+1.使用大写字母和下划线来命名这种常量<br />
+2.在执行之前就已知的常量可以用这种方法来命名
+
+- 创建COLOR_RED常量,并使用color变量选择这个常量的值;
+
+    ```javascript
+    const COLOR_RED = "#F00";
+    let color = COLOR_RED;
+    alert(color);
+    ```
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 ## JavaScript 布局
