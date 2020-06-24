@@ -63,7 +63,7 @@
 
 变量是数据的"命名存储",使用`let`创建变量
 
-- 创建一个名称为"message"的变量,使用`=`为它赋值,并通过变量名称访问它;
+- 创建一个名称为'message'的变量,使用`=`为它赋值,并通过变量名称访问它;
 
     ```javascript
     let message = 'Hello';
@@ -121,7 +121,95 @@
     let color = COLOR_RED;
     alert(color);
     ```
+    
+## 数据类型
 
+javascript是动态类型编程语言,变量可以保存任何数据类型
+
+### Number类型
+
+`number`类型代表整数和浮点数<br />
+特殊数值:`Infinity`、`-Infinity`、`NaN`
+
+- `Infinity`代表无穷大,比任何数字都大;
+
+    ```javascript
+    alert(1 / 0);
+    alert(Infinity);
+    ```
+    
+- `NaN`代表一个计算错误;
+
+    ```javascript
+    alert('abc' / 12);
+    ```
+    
+### BigInt类型
+
+- `Number`类型有大小限制,使用`BigInt`类型表示任意长度的整数(**在整数末尾添加n**);
+
+    ```javascript
+    const bigInt = 11111111111233333333333333n;
+    ```
+### String类型
+
+三种包含字符串的方式,单引号、双引号和反引号<br />
+
+- 反引号是`功能扩展`引号,可以通过将变量和表达式包装在`${...}`中,来嵌入到字符串中;
+
+    ```javascript
+    let name = xue
+    alert(`my name is ${name}`);
+    alert(`num is ${1 + 2}`);
+    ```
+    
+### Boolean类型
+
+- boolean类型只包含两个值:`true`和`false`,也可作为比较的结果
+
+    ```javascript
+    let nameFieldChecked = true;
+    let num = 2 > 3;//false
+    ```
+    
+### 'null'值
+
+- 'null'仅仅代表这是一个**无、空**或者**值未知**的特殊值
+
+    ```javascript
+    let age = null;
+    ```
+### 'undefined'值
+
+- 'undefined'的含义是**未被赋值**
+
+    ```javascript
+    let x;
+    alert(x);//undefined
+    ```
+    
+### 'typeof'运算符
+
+`typeof`返回参数的类型<br />
+1.函数形式:`typeof(x);`<br />
+2.运算符形式:`typeof x;`
+
+- 所有数据类型例子;<br />
+1.`Math`是一个提供数学运算内建的`object`<br />
+2.`null`的数据类型是`object`是错误的<br />
+3.`alert`t在javascript中是一个函数
+
+   ```javascript
+   typeof undefined;//'undefined'
+   typeof 0;//'number'
+   typeof 111n;//'bigint'
+   typeof true;//'bollean'
+   typeof 'abc';//'string'
+   typeof Symbol('id')//'symbol'
+   typeof Math;//'object'
+   typeof null;//'object'
+   typeof alert;//'function'
+   ```
 
 
     
