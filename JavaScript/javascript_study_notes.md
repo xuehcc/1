@@ -191,8 +191,8 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
 ### 'typeof'运算符
 
 `typeof`返回参数的类型<br />
-1.函数形式:`typeof(x);`<br />
-2.运算符形式:`typeof x;`
+1.函数形式:`typeof(x)`<br />
+2.运算符形式:`typeof x`
 
 - 所有数据类型例子;<br />
 1.`Math`是一个提供数学运算内建的`object`<br />
@@ -210,6 +210,9 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
    typeof null;//'object'
    typeof alert;//'function'
    ```
+   ## 类型转换
+   
+   
 
 
     
