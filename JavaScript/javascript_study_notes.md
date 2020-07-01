@@ -56,7 +56,7 @@
 - `'use strict'`一般处于脚本最顶部,如处于函数主体开头,则只在该函数中生效;
 
     ```javascript
-    'strict'
+    'use strict'
     ```
     
 ## 变量
@@ -158,7 +158,7 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
 - 反引号是`功能扩展`引号,可以通过将变量和表达式包装在`${...}`中,来嵌入到字符串中;
 
     ```javascript
-    let name = xue
+    let name = 'xue';
     alert(`my name is ${name}`);
     alert(`num is ${1 + 2}`);
     ```
