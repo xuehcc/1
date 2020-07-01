@@ -199,20 +199,65 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
 2.`null`的数据类型是`object`是错误的<br />
 3.`alert`t在javascript中是一个函数
 
-   ```javascript
-   typeof undefined;//'undefined'
-   typeof 0;//'number'
-   typeof 111n;//'bigint'
-   typeof true;//'bollean'
-   typeof 'abc';//'string'
-   typeof Symbol('id')//'symbol'
-   typeof Math;//'object'
-   typeof null;//'object'
-   typeof alert;//'function'
-   ```
-   ## 类型转换
+    ```javascript
+    typeof undefined;//'undefined'
+    typeof 0;//'number'
+    typeof 111n;//'bigint'
+    typeof true;//'bollean'
+    typeof 'abc';//'string'
+    typeof Symbol('id')//'symbol'
+    typeof Math;//'object'
+    typeof null;//'object'
+    typeof alert;//'function'
+    ```
    
+## 类型转换
    
+大多数情况下,运算符和函数会自动将赋予它们的值转换为正确的类型
+   
+### 字符串转换
+
+- 
+   
+    ```javascript
+    let Value = true;
+    alert(typeof 123);//boolean
+    
+    value = String(value);
+    alert(typeof value);//string
+    ```
+   
+### 数字型转换
+   
+- 在算数函数和表达式中,会自动number类型转换
+
+    ```javascript
+    alert('6' / '2');//3
+    
+    let str = '123';
+    alert(typeof str);//string
+    
+    let num = Number(str);//变成number类型的123
+    alert(typeof num);//number 
+    ```
+    
+- number 类型转换规则
+    
+    ```javascript
+    alert(Number(true));//1
+    alert(Number(false));//0
+    alert(Number(undefined));//NaN
+    alert(Number(null));//0
+    alert(Number(' 123 '));//123(只有字符串由数字和空格组成才能转换成功)
+    alert(Number(z123));//NaN
+    alert(Number(''));//0(字符串为空,转换结果为0)
+    ```
+### 布尔型转换
+
+为"空"的值(`0`、空字符串、`null`、`undefined`和`NaN`)将变为`false`
+其他变为`true`
+   
+### 
 
 
     
