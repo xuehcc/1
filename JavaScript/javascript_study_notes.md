@@ -254,12 +254,55 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
     ```
 ### 布尔型转换
 
-为"空"的值(`0`、空字符串、`null`、`undefined`和`NaN`)将变为`false`
+为"空"的值(`0`、空字符串、`null`、`undefined`和`NaN`)将变为`false`<br />
 其他变为`true`
-   
-### 
 
+    ```javascript
+    alert(Boolean(0));//false
+    alert(Boolean(''));//false
+    alert(Boolean(null));//false
+    alert(Boolean(undefined));//false
+    alert(Boolean(NaN));//false
+    
+    alert(Boolean(' '));//true
+    alert(Boolean(1));//true
+    alert(Boolean('0'));//true
+    ```
+    
+## 运算符
 
+`5 * 2`有两个运算元,左运算元`5`和右运算元`2`
+
+- 一个运算符只有一个运算元称为**一元运算符**
+
+    ```javascript
+    let x = 1;
+    x = -x;
+    alert(x);//-1(一元负号运算符)
+    ```
+- 一个运算符有两个运算元称为**二元运算符**
+
+    ```javascript
+    let a = 1, b = 3;
+    alert(b - a);//2
+    ```
+    
+### 字符串连接,二元运算符+
+
+- 加号`+`用于连接各个字符串
+
+    ```javascript
+    let s = 'My' + 'string';
+    alert(s);//Mystring
+    ```
+    
+- 只要一个运算元是字符串,另一个运算元也将转换为字符串(**只生效与二元运算符+**)
+
+    ```javascript
+    alert('1' + 2);//'12'
+    
+    alert(2 + 2 + '3');//'43'
+    ```
     
     
     
