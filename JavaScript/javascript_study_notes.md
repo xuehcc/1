@@ -282,10 +282,10 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
     ```
 ### 布尔型转换
 
-为"空"的值(`0`、空字符串、`null`、`undefined`和`NaN`)将变为`false`<br />
-其他变为`true`
+- 为"空"的值(`0`、空字符串、`null`、`undefined`和`NaN`)将变为`false`<br />
+  其他变为`true`
 
-    ```javascript
+    ```js
     alert(Boolean(0));//false
     alert(Boolean(''));//false
     alert(Boolean(null));//false
