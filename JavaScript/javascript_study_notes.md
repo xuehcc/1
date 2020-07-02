@@ -210,7 +210,35 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
     typeof null;//'object'
     typeof alert;//'function'
     ```
+    
+## 交互
+
+### `alert`
+
+- 弹出带有信息的**模态窗**,必须处理完当前窗口后才可与其他部分交互
+
+    ```javascript
+    alert('Hello');
+    ```
+
+### `prompt`
+
+- `prompt`返回用户在`input`框中输入的文本,取消输入则返回`null`
+
+    ```javascript
+    let age = prompt('How old?', '');
+    alert(`I am ${age} years old`);
+    ```
+
+### `confirm`
+
+- `confirm`显示一个带有问题以及确定和取消两个按钮的模态窗口
    
+    ```javascript
+    let isBoss = confirm('Are you the boss?');
+    alert(isBoss);//确定为true,取消为false
+    ```
+    
 ## 类型转换
    
 大多数情况下,运算符和函数会自动将赋予它们的值转换为正确的类型
