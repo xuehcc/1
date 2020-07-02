@@ -332,6 +332,115 @@ javascript是动态类型编程语言,变量可以保存任何数据类型
     alert(2 + 2 + '3');//'43'
     ```
     
+### 数字转化,一元运算符+
+
+- 一元运算符加号`+`应用于单个值,对数字没有任何作用,运算元不是数字则转换为数字
+
+    ```js
+    let x = 1;
+    alert(+x);//1
+    
+    let y = -2;
+    alert(+y);//-2
+    
+    alert(+true);//1
+    alert(+'');//0
+    
+    alert(+x + +y);//数字1+数字-2等于数字-1
+    ```
+
+### 赋值运算符
+
+- 赋值的优先级很低
+
+    ```js
+    let a = 2 * 2 + 1;
+    alert(a);//5
+    ```
+    
+    ```js
+    let a = 1;
+    let b = 2;
+    let c = 3 - (a = 1 + b);
+    alert(c);//0
+    alert(a);//3
+    ```
+    
+- 链式赋值
+
+    ```js
+    let a, b, c;
+    a = b = c = 2 + 2;
+    alert(a);//4
+    alert(b);//4
+    alert(c);//4
+    ```
+    
+### 原地修改
+
+-
+
+    ```js
+    let n = 2;
+    n += 5;//now n = 7(n = n + 5)
+    n *= 2;//now n = 14(n = n * 2)
+    alert(n);//14
+    ```
+    
+- 简写的优先级和赋值一样,很低
+
+    ```js
+    let n = 2;
+    n *= 2 + 5;//14
+    ```
+
+### 自增/自减
+
+自增和自减只能应用于变量
+
+- 自增`++`将变量与1相加
+
+    ```js
+    let counter = 2;
+    counter++;
+    alert(counter);//3
+    ```
+
+- 自减`--`将变量与1相减
+
+    ```js
+    let counter = 2;
+    counter--;
+    alert(counter);//1
+    ```
+    
+- 前置返回一个新值,后置返回原来的值
+
+    ```js
+    let counter = 1;
+    a = counter++;//后置返回旧值
+    alert(a);//1
+    ```
+    
+    ```js
+    let counter = 1;
+    a = ++counter;//前置返回新值
+    alert(a);//2
+    ```
+    
+- 自增/自减和其他运算符
+
+    ```js
+    let counter = 1;
+    alert(2 * ++counter);//4
+    
+    let a = 1;
+    alert(2 * counter++);//2
+    ```
+### 位运算符
+    
+    
+### 逗号运算符
     
     
     
