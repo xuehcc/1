@@ -173,7 +173,7 @@ target属性可以定义被链接的文档在何处显示
     </style>
   ```
 
--`<meta>`元素
+- `<meta>`元素
 
   `<meta>`标签描述了基本的元数据（网页描述、关键词、作者等）
   
@@ -201,7 +201,7 @@ target属性可以定义被链接的文档在何处显示
   <meta http-equiv="refresh" content="30">
   ```
   
--`<script>`元素
+- `<script>`元素
 
 `<script>`标签用于加载脚本文件
 
