@@ -53,20 +53,139 @@ HTML标记标称为HTML标签
 - 属性可以在元素中添加**附加信息**
 - 属性一般描述与**开始标签**
 - 属性总是以名称/值对形式出现，比如name="value"
-- 属性值应该始终被包括在括号内
+- 属性值应该始终被包括在引号内（单引号或双引号都可以，特殊情况使用单引号）
 
 ## HTML标题
 
+`<h1>定义最大标题，<h6>`定义最小标题
 
-
-
+```HTML
+<h1>标题1</h1>
+```
 
 ## HTML水平线
 
-
+`<hr />`
 
 ## HTML注释
 
-
+`<!--注释-->`
 
 ## HTML段落
+
+`<p>段落</p>`
+
+## HTML换行
+
+`<br />`
+
+## HTML输出-使用提醒
+
+显示页面时，所有的空格和空行都会被算作一个空格
+
+## HTML文本格式化
+
+
+## HTML链接
+
+```HTML
+<a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer">Link baidu</a>
+```
+
+window.opener值变为null，让网站更安全：`rel="noopener noreferrer"`<br />
+target属性可以定义被链接的文档在何处显示
+
+- _blank:新的窗口中打开
+- _self:在相同的框架或窗口中打开链接
+- _parent:在父窗口中打开链接
+- _top:清除所有被包含的框架，打开链接
+
+## HTML创建电子邮箱链接
+
+```HTML
+<a href="mailto:xuexhc@outlook?cc=xuexhc@gmail.com&bccxuexhc@163.com&Subject=Hello%20again&body=Thank%20You target="_blank">sent mail</a>
+```
+
+|参数                  |描述              |
+|:-                    |:-               |
+|mailto:name@email.com |邮件接收地址      |
+|cc=name@email.com     |邮件抄送地址      |
+|bcc=name@email.com    |邮件密送地址      |
+|subject=subject text  |邮件主题          |
+|body=body text        |邮件内容          |
+|?                     |第一个参数分隔符   |
+|&                     |其他参数分隔符     |
+|%20                   |表示一个空格       |
+|;                     |多个邮件地址分隔   |
+
+
+
+## HTML图像
+
+图像边框：`border="10"`<br />
+图像替代文本：`alt="替代文本信息"`
+
+```HTML
+<img src="url" width="10" height="10" border="10" alt="smiley"/>
+```
+
+## HTML头部
+
+- `<head>`元素
+
+  `<head>`元素包含了所有头部标签元素:`<title>`、`<style>`、`<meta>`、`<link>`、`<script>`、`<noscript>`、`<base>`
+
+- `<title>`元素
+
+  `<title>`标签定义不同文档的标题
+
+- `<base>`元素
+
+  `<base>`标签描述了基本的链接地址/目标目标，该标签作为HTML中所有链接标签的默认链接
+  
+  ```HTML
+  <base href="C:\Users\xuexh\OneDrive\Myproject\.vscode\index.html" target="_blank">
+  ```
+
+- `<link>`元素
+
+  `<link>`标签定义文档与外部资源之间的关系
+  `<link>`标签通常用于链接到样式表
+  
+  ```HTML
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  ```
+  
+  `<link>`标签显示图片
+  
+  ```HTML
+  <link rel="shortcut icon" href="img url">
+  ```
+
+- `<style>`元素
+  `<style>`标签定义了HTML文档的样式文件引用地址
+  `<style>`元素中可以直接添加样式
+  
+  ```HTML
+  <style type="text/css">
+    body {background-color:black}
+    p {color:yellow}
+    </style>
+  ```
+
+-`<meta>`元素
+
+-`<script>`元素
+
+
+
+
+
+
+
+
+
+
+
+
+
