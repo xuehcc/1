@@ -175,7 +175,35 @@ target属性可以定义被链接的文档在何处显示
 
 -`<meta>`元素
 
+  `<meta>`标签描述了基本的元数据（网页描述、关键词、作者等）
+  
+  - 为搜索引擎定义关键词
+  
+  ```HTML
+  <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+  ```
+  
+  - 为网页定义描述内容
+  
+  ```HTML
+  <meta name="description" content="TEST">
+  ```
+  
+  - 定义网页作者
+  
+  ```HTML
+  <meta name="author" content="xhc">
+  ```
+  
+  - 每30秒刷新当前页面
+  
+  ```HTML
+  <meta http-equiv="refresh" content="30">
+  ```
+  
 -`<script>`元素
+
+`<script>`标签用于加载脚本文件
 
 
 
