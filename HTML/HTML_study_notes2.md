@@ -239,7 +239,24 @@ CSS可以通过以下方式添加到HTML中
   
 ## 表格
   
-表格由`<table>`标签定义，每行由`<tr>`标签定义，每个单元格由`<td>`标签定义
+- `<table>`:表格，`<tr>`：表格行，`<td>`：单元格
+- `<th>`：表格表头，`<caption>`：定义标题，`cellpadding`定义单元格边距，`cellspacing`定义单元格间距
+
+```HTML
+<table border="1" cellpadding="10">
+  <caption>Table Title</caption>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Row1 Cell1</td>
+    <td>Row1 Cell2</td>
+  </tr>
+    <td>Row2 Cell1</td>
+    <td>Row2 Cell2</td>
+</table>
+```
   
 
 
