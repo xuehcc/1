@@ -126,7 +126,9 @@ target属性可以定义被链接的文档在何处显示
 图像替代文本：`alt="替代文本信息"`
 
 ```HTML
+<a href="https://www.baidu.com">
 <img src="url" width="10" height="10" border="10" alt="smiley"/>
+</a>
 ```
 
 ## HTML头部
@@ -234,7 +236,10 @@ CSS可以通过以下方式添加到HTML中
     <link rel="stylesheet" type=text/css href="C:\Users\xuexh\OneDrive\Myproject\.vscode\mystyle.css">
   </head>
   ```
-
+  
+  ## 图像
+  
+  
 
 
 
