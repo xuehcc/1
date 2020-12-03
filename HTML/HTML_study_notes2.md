@@ -23,7 +23,7 @@ HTML是用来描述网页的一种语言
 
 ## HTML标签
 
-HTML标记标称为HTML标签
+HTML标记标签称为HTML标签
 
 - HTML标签是由尖括号包围的关键词，比如`<html>`
 - HTML标签成对出现，比如`<p>和</p>`
@@ -160,6 +160,7 @@ target属性可以定义被链接的文档在何处显示
   
   ```HTML
   <link rel="shortcut icon" href="img url">
+  <link rel="icon" href="image url" type="image/x-icon">
   ```
 
 - `<style>`元素
