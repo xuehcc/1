@@ -409,11 +409,34 @@ First Name:<input type="text" name="firstname">
 
 ## 框架
 
+```HTML
+<iframe src="url" width="200" height="200" frameborder="0"></iframe>
+```
 
+- 链接页面显示在iframe框架中
 
+```HTML
+<iframe src="layout.html" height="100" width="100" frameborder="0" name="iframe_a"></iframe>
+<a href="https://www.baidu.com" target="iframe_a"></a>
+```
 
+## 脚本
 
+使用`<`script>`标签定义脚本
 
+```HTML
+<script>document.write("Hello World");</script>
+```
+
+`<noscript>`标签提供无法使用脚本时的替代内容
+
+```HTML
+<noscript>抱歉，浏览器不支持javascript</noscript>
+```
+
+## 字符实体
+
+不间断空格:`&nbsp`
 
 
 
