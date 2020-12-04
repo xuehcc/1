@@ -306,19 +306,112 @@ CSS可以通过以下方式添加到HTML中
 
 ## 区块元素
 
-块级元素在浏览器显示时，会以新行来开始和结束
-eg：`<h1>``<p>``<ul>``<table>`
+块级元素在浏览器显示时，会以新行来开始和结束<br />
+eg：`<h1>`、`<p>`、`<ul>`、`<table>`
 
 
 
 ## 内联元素
 
-
+内联元素一般不会以新行开始
+eg：`<b>`、`<td>`、`<a>`、`<img>`
 
 ## `<div>`元素
 
+`<div>`元素是块级元素，用于组合其他元素
 
-  
+## `<span>`元素
+
+`<span>`元素是内联元素，可用于设置文本样式属性
+
+## 表单
+
+表单是一个包含表单元素的区域，使用表单标签`<form>`来设置
+输入标签：`<input>`
+
+- 文本域
+
+默认宽度2个字符
+
+```HTML
+<form>
+First Name:<input type="text" name="firstname">
+</form>
+```
+
+- 密码字段
+
+```HTML
+<form>
+  Password:<input type="password" name="pwd">
+</form>
+```
+
+- 单选按钮
+
+```HTML
+<form>
+  Male<input type="radio" name="sex" value="male"><br />
+  Female<input type="radio" name="sex" value="female">
+</form>
+```
+
+- 复选框
+
+```HTML
+<form>
+  Coffee<input type="checkbox" name="drink" value="coffee">
+  Milk<input type="checkbox" name="drink" value="milk">
+</form>
+```
+- 提交按钮
+
+？
+
+- （预选）下拉列表框
+
+```HTML
+<form>
+  <select name="drink">
+    <option value="Coffee">coffee</option>
+    <option value="Tea" selected>tea</option>
+    <option value="milk">milk</option>
+  </select>
+</form>
+```
+
+- 多行文本域
+
+```HTML
+<form>
+  <textarea cols="10" rows="10"></textarea>
+</form>
+```
+
+- 按钮
+
+```HTML
+  <input type="button" value="YES">
+```
+
+- 带边框表单
+
+```HTML
+<form>
+  <fieldset>
+    <legend style="text-align="center">Title</legend>
+    Name:<input type="text" size="10">
+    Email:<input type="text" size="10">
+    Tele:<input type="text" size="10">
+  </fieldset>
+</form>
+```
+
+## 框架
+
+
+
+
 
 
 
